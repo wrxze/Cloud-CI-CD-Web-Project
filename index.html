@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио начинающего IT-специалиста">
+  <title>Моё IT-портфолио</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav"><a class="brand" href="#">IT<span>Portfolio</span></a><a href="#about">Обо мне</a><a href="#skills">Навыки</a><a href="#projects">Проекты</a></nav>
+    <div class="hero-content">
+      <p class="eyebrow">ПОРТФОЛИО IT-СПЕЦИАЛИСТА</p>
+      <h1>Создаю цифровые решения</h1>
+      <p class="lead">Изучаю веб-разработку, автоматизацию и облачные технологии. Здесь собраны мои навыки, учебные проекты и цели.</p>
+      <a class="button" href="#projects">Посмотреть проекты</a>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section">
+      <p class="eyebrow">01 / ОБО МНЕ</p><h2>Кто я</h2>
+      <p>Я начинающий IT-специалист. Изучаю основы программирования, сетевые технологии и инструменты DevOps. Мне интересно создавать удобные веб-сайты и автоматизировать рутинные процессы.</p>
+    </section>
+    <section id="skills" class="section tinted">
+      <p class="eyebrow">02 / КОМПЕТЕНЦИИ</p><h2>Мои навыки</h2>
+      <div class="cards">
+        <article class="card"><h3>HTML и CSS</h3><p>Структура страниц, адаптивная вёрстка и оформление интерфейсов.</p></article>
+        <article class="card"><h3>JavaScript</h3><p>Интерактивные элементы и базовая логика на стороне браузера.</p></article>
+        <article class="card"><h3>Git и CI/CD</h3><p>Контроль версий, GitHub Actions и автоматическая публикация.</p></article>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <p class="eyebrow">03 / ПРАКТИКА</p><h2>Учебные проекты</h2>
+      <div class="project">
+        <div><h3>Cloud CI/CD Project</h3><p>Пример статического сайта, который автоматически проверяется и публикуется через GitHub Actions на GitHub Pages.</p></div>
+        <span class="tag">HTML · CSS · JS · GitHub Actions</span>
+      </div>
+      <div class="project">
+        <div><h3>Сетевые лабораторные работы</h3><p>Практика настройки IP-адресации, DHCP и маршрутизации в Cisco Packet Tracer.</p></div>
+        <span class="tag">Networking</span>
+      </div>
+    </section>
+    <section class="section contact">
+      <p class="eyebrow">04 / СВЯЗЬ</p><h2>Открыт к новым задачам</h2>
+      <p>Нажмите кнопку, чтобы увидеть интерактивную функцию JavaScript.</p>
+      <button class="button" id="contactBtn">Связаться</button>
+      <p id="message" class="message" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Моё IT-портфолио · Создано для практической работы по CI/CD</footer>
+  <script src="script.js"></script>
+</body>
+</html>
